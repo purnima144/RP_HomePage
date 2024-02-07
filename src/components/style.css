@@ -1,0 +1,318 @@
+
+/*namegenerator css*/
+* {
+    top: 20%;
+    box-sizing: border-box;
+  }
+  .container {
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+  }
+  
+  .container1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+  }
+  
+  .left {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: #312eab;
+  }
+  
+  .right > select {
+    padding: 5px 10px;
+    margin-top: 25px;
+    font-weight: 600;
+    border: 2px solid #312eab;
+    border-radius: 5px;
+    color: black;
+  }
+  
+  
+  .drug-gene {
+    text-align: center;
+    color: #00008b;
+    margin-bottom: -2%;
+    font-family: serif;
+    font-weight:bolder;
+    font-size: 1.2cm;
+  }
+  
+  .drug-dis {
+    text-align: center;
+    color: #828bdb;
+    font-stretch: extra-expanded;
+    font-family: serif;
+    font-size: 0.6cm;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 15px;
+    display: inline-block;
+    margin: 5px 0 22px 0;
+    border: 2px solid #312eab;
+    border-radius: 6px;
+  }
+  
+  input[type="text"]:focus,
+  input[type="password"]:focus {
+    background-color: white;
+    outline: none;
+  }
+  
+  .sel {
+    width: 100%;
+    display: inline-block;
+    margin: 5px 0 22px 0;
+    background: whitesmoke;
+    font-family: "Franklin Gothic Medium";
+    padding: 16px 20px;
+    border: 2px solid #312eab;
+    border-radius: 6px;
+    background-color: #f1f1f1;
+  }
+  
+  .generate-btn {
+    background-color: #00008b;
+    opacity: 0.9;
+    padding: 16px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    margin: auto;
+    border-radius: 6px;
+    box-shadow: 5px 5px 5px 2px grey;
+    margin-top: 3%;
+    margin-left: 20%;
+  }
+  
+  .generate-btn:hover {
+    background-color: #3833c4;
+  }
+  
+  
+  
+  /*Navbar2 css*/
+  .nav2{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    position: fixed;
+    left: 0;
+    top: 0;
+    margin-left: 5%;
+    margin-top: auto;
+    width: 100%;
+    z-index: 1;
+    opacity: 95%;
+    gap:600px;
+  }
+  
+   .phram {
+    margin-right: auto;
+    text-align: left;
+    color: grey;
+    font-size: larger;
+    font-family: "Franklin Gothic Medium";
+  }
+  
+   .team {
+    margin: auto;
+    text-align: right;
+    color: grey;
+    font-size: larger;
+    font-family: "Franklin Gothic Medium";
+  }
+  
+  /*Result css*/
+  .data-container {
+    padding-left: 3em;
+    padding-right: 3em;
+    margin-top: 3em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .inner_container {
+    display: grid;
+    place-items: center;
+  }
+  
+  .inner1{
+    font-weight: 800;
+    font-size: large;
+    color: #000;
+    margin-bottom: -1.5%;
+  }
+  
+  .inner2{
+    font-weight: 600;
+    font-size: small;
+    color: grey;
+  }
+  
+  
+  /*Result page component homepageheader css*/
+  .header {
+    min-height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+  }
+  
+  .drug-name {
+    size: 10cm;
+    font-family: "Franklin Gothic Medium";
+    margin-top: 5%;
+    font-size: xx-large;
+    font-stretch: ultra-expanded;
+    margin-bottom: 1%;
+  }
+  
+  .content {
+    font-family: "Franklin Gothic Medium";
+    margin: auto;
+    font-size: 0.6cm;
+    font-stretch: expanded;
+    color: rgb(35, 35, 239);
+  
+  }
+  
+  
+  /*Navbar3 css*/
+  
+  .nav3{
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .phram3 {
+    margin-right: auto;
+    text-align: left;
+    color: grey;
+    font-size: larger;
+    font-family: "Franklin Gothic Medium";
+    margin-left: 5%;
+  }
+  
+  
+   .team3 {
+    margin: auto;
+    text-align: right;
+    color: grey;
+    font-size: larger;
+    font-family: "Franklin Gothic Medium";
+    margin-top: -4%;
+    margin-right: 5%;
+  }
+  
+  
+  hr.new1 {
+    border: 1px solid grey;
+    margin-top: 3%;
+  }
+  
+  
+  /*--------------------
+      Footer styles
+  --------------------*/
+  
+  
+  footer{
+      /* 0 flex-grow, 0 flex-shrink, auto flex-basis */
+      flex: 0 0 auto;
+  }
+  
+  footer{
+      background-color: #292c2f;
+      box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+      width: 100%;
+    height: 50%;
+      text-align: left;
+      font: normal 16px sans-serif;
+      padding: 45px 50px;
+  }
+  
+  footer .footer-limiter {
+      max-width: 880px;
+      margin: 0 auto;
+  }
+  
+  footer .footer-left p{
+      color:  #8f9296;
+      font-size: 14px;
+      margin: 0;
+  }
+  
+  
+  /* Footer links */
+  
+  footer p.footer-links{
+      font-size:18px;
+      font-weight: bold;
+      color:  #ffffff;
+      margin: 0 0 10px;
+      padding: 0;
+  }
+  
+  footer p.footer-links a{
+      display:inline-block;
+      line-height: 1.8;
+      text-decoration: none;
+      color:  inherit;
+  }
+  
+  footer .footer-right{
+      float: right;
+      margin-top: 6px;
+      max-width: 180px;
+  }
+  
+  footer .footer-right a{
+      display: inline-block;
+      width: 35px;
+      height: 35px;
+      background-color:  #33383b;
+      border-radius: 2px;
+  
+      font-size: 20px;
+      color: #ffffff;
+      text-align: center;
+      line-height: 35px;
+  
+      margin-left: 3px;
+  }
+  
+  /* If you don't want the footer to be responsive, remove these media queries */
+  
+  @media (max-width: 600px) {
+  
+      footer .footer-left,
+      footer .footer-right{
+          text-align: center;
+      }
+  
+      footer .footer-right{
+          float: none;
+          margin: 0 auto 20px;
+      }
+  
+      footer .footer-left p.footer-links{
+          line-height: 1.8;
+      }
+  }
+  
