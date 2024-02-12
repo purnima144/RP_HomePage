@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 // import components
-import Logo from '../assets/img/logo1.png';
+import Logo from '../assets/img/vlab-logo.png';
 import Nav from './Nav';
 import NavMobile from './NavMobile';
 
@@ -19,7 +19,7 @@ const Header = () => {
       data-aos-duration='1000'
     >
       <div className='container mx-auto'>
-        <div className='flex items-center justify-between'>
+        <div className='flex items-center justify-between '>
           <div className='flex items-center gap-x-[120px]'>
             {/* logo */}
             <a href='#'>

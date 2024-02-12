@@ -68,7 +68,7 @@ const Hero = () => {
           </div>
           {/* image */}
           <div
-            className='xl:absolute xl:-right-20 xl:bottom-100 w-[70%] -z-10'
+            className='xl:absolute xl:-right-20 xl:bottom-100 w-[65%] -z-10 opacity-75'
             data-aos='fade-up'
             data-aos-delay='500'
           >

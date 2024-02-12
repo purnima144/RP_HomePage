@@ -3,24 +3,16 @@ import { FaYoutube, FaInstagram, FaGithub } from 'react-icons/fa';
 import { BsChatDotsFill } from 'react-icons/bs';
 
 // import images
-import AboutImg from '../src/assets/img/medicine.png';
-import Feature1Img from '../src/assets/img/features/feature1.png';
-import Feature2Img from '../src/assets/img/features/feature2.png';
-import Feature3Img from '../src/assets/img/features/feature3.png';
-import Feature4Img from '../src/assets/img/features/feature4.png';
+import AboutImg from '../src/assets/img/About1.png';
 import Avatar1Img from '../src/assets/img/testimonials/avatar1.png';
 import Avatar2Img from '../src/assets/img/testimonials/avatar2.png';
 import Avatar3Img from '../src/assets/img/testimonials/avatar3.png';
-import Logo from '../src/assets/img/logo1.png';
-import HeroImage from '../src/assets/img/heroImg.png';
-import Feature1BgImg from '../src/assets/img/features/feature1_bg.png';
-import Feature2BgImg from '../src/assets/img/features/feature2_bg.png';
+import Logo from '../src/assets/img/vlab-logo.png';
+import HeroImage from '../src/assets/img/Image-1.png';
 import Feature3BgImg from '../src/assets/img/features/feature3_bg.png';
 import Feature4BgImg from '../src/assets/img/features/feature4_bg.png';
 import purnimaImg from '../src/assets/img/team/purnima_pic.jpg'
-import shanImg from '../src/assets/img/team/shanpic.jpg'
-import gouravImg from '../src/assets/img/team/Gourav.jpg'
-import pramodImg from '../src/assets/img/team/pramod.jpg'
+import pramodImg from '../src/assets/img/team/Ashish_sirrrrrrrrrrrrrr.jpeg'
 
 export const navigationData = [
   {
@@ -42,48 +34,32 @@ export const navigationData = [
 ];
 
 export const heroData = {
-  title: `Drug Name Generator`,
+  title: `Remote IoT Laboratory`,
   subtitle:
     'Generate brandable drug names using artificial intelligence.',
   btnText: 'Get started',
-  btnText1: 'View recent suggestions',
+  btnText1: 'Prerequisites',
   image: HeroImage,
 };
 
 export const aboutData = {
   image: AboutImg,
-  title: '"Know a little more Pharmark" ',
+  title: '"Know a little more Remote IoT Lab" ',
   subtitle:
-    'An LSTM model that accepts strings as input parameters from the End users, generates and  displays a list of derived names which are filtered names based on the viability and authenticity of the generated names through the provided rules. ',
+    'Remote laboratories have emerged as a viable solution for students to gain practical experience with specialized equipment and instruments from any location. With the COVID-19 epidemic limiting traditional offline labs, the need for online virtual labs has grown, particularly in teaching programmes. The growing interest in the Internet of Things (IoT) has amplified the demand for adaptable architectural designs to connect diverse IoT devices and systems. This product has the ability to provide the infrastructure for remotely performing Arduino experiments with real hardware in real-time.'
 };
 
 export const featuresData = {
   title: 'Our Team',
   subtitle:
-    'Together, we believe that our skills and experiences make us strong and well-rounded team that is capable of tackling any challenge that comes our way!!',
+    'We believe that our skills and experiences make us strong and well-rounded team that is capable of tackling any challenge that comes our way!!',
   list: [
-    {
-      image: gouravImg,
-      bgImage: Feature1BgImg,
-      title: 'Gourav Mohanty',
-      description:
-        'Team Leader, Backend Developer',
-      delay: '400',
-    },
-    {
-      image: shanImg,
-      bgImage: Feature2BgImg,
-      title: 'Sayantan Chatterjee',
-      description:
-        'Teammate, Backend Developer',
-      delay: '700',
-    },
     {
       image:pramodImg ,
       bgImage: Feature3BgImg,
-      title: 'Pramod Goyal',
+      title: 'Ashish Saini',
       description:
-        'Teammate, ML and Dev-ops',
+        'Teammate, FullStack Developer',
       delay: '1000',
     },
     {
@@ -133,9 +109,9 @@ export const ctaData = {
 
 export const footerData = {
   logo: Logo,
-  address: 'Product: Brand Name Generator, 769008 Sector 1 NIT Rourkela',
-  email: 'goyalpramod1729@gmail.com',
-  phone: '9031599049',
+  address: 'Product: Remote IoT Lab, 769008 Sector 1 NIT Rourkela',
+  email: 'ashish786sde@gmail.com',
+  phone: '111111111',
   socialList: [
     {
       icon: <FaYoutube />,
@@ -153,5 +129,5 @@ export const footerData = {
 };
 
 export const copyrightData = {
-  text: ' Pharmark © 2022. All rights reserved. Company Registration Number: 09833888.',
+  text: ' Remote IoT Lab © 2024. All rights reserved. Company Registration Number: 0000011111.',
 };
